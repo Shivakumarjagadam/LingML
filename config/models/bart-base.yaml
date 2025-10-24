@@ -1,0 +1,3 @@
+HF_PATH: 'facebook/bart-base'
+MAX_LENGTH: 128
+SAVE_NAME: 'BART'

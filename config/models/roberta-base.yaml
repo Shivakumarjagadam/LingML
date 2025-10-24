@@ -1,0 +1,3 @@
+HF_PATH: 'roberta-base'
+MAX_LENGTH: 128
+SAVE_NAME: 'RoBERTa'

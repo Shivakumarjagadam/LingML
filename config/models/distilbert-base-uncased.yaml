@@ -1,0 +1,3 @@
+HF_PATH: 'distilbert-base-uncased'
+MAX_LENGTH: 128
+SAVE_NAME: 'DistilBERT'

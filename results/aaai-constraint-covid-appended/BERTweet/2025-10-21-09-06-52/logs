@@ -1,0 +1,43 @@
+DATASET = aaai-constraint-covid-appended
+COVID WORDS = covid 19, covid-19, covid19, covid, corona virus, coronavirus, corona
+TOKENS = [URL], [HASHTAG], [MENTION], [EMOJI], [COVID]
+ADD NEW TOKENS = False
+MAX LENGTH = 128
+BATCH SIZE = 12
+MODEL = bertweet-covid19-base-uncased
+LEARNING RATE = 1e-05
+TEST EVERY = 600
+SAVE EVERY = None
+
+2025-10-21-09-06-52: Loading and pre-processing datasets...
+2025-10-21-09-06-53: Finished pre-processing datasets.
+
+2025-10-21-09-06-53: Tokenizing datasets...
+2025-10-21-09-06-57: Finished tokenizing datasets.
+
+2025-10-21-09-06-57: Preparing data-loaders...
+2025-10-21-09-06-57: Finished preparing data-loaders.
+
+2025-10-21-09-06-57: Loading and preparing model...
+2025-10-21-09-06-59: Finshed preparing model.
+
+2025-10-21-09-06-59: Starting training...
+
+2025-10-21-09-07-46: Training (last 600 batches): accuracy = 0.907500, f1-score = 0.913753, loss = 137.169130
+2025-10-21-09-07-50: Validation (total 179 batches): accuracy = 0.960280, f1-score = 0.962138, loss = 22.635532
+2025-10-21-09-07-54: Testing (total 179 batches): accuracy = 0.959813, f1-score = 0.961435, loss = 21.437904
+2025-10-21-09-07-54: Finished batch 600.
+
+2025-10-21-09-08-42: Training (last 600 batches): accuracy = 0.971389, f1-score = 0.972766, loss = 55.284879
+2025-10-21-09-08-46: Validation (total 179 batches): accuracy = 0.969159, f1-score = 0.970641, loss = 21.037354
+2025-10-21-09-08-50: Testing (total 179 batches): accuracy = 0.967757, f1-score = 0.969128, loss = 18.900135
+2025-10-21-09-08-50: Finished batch 1200.
+
+2025-10-21-09-09-38: Training (last 600 batches): accuracy = 0.981806, f1-score = 0.982619, loss = 35.692504
+2025-10-21-09-09-42: Validation (total 179 batches): accuracy = 0.965888, f1-score = 0.967884, loss = 21.038734
+2025-10-21-09-09-46: Testing (total 179 batches): accuracy = 0.971028, f1-score = 0.972783, loss = 17.929546
+2025-10-21-09-09-46: Finished batch 1800.
+
+
+
+

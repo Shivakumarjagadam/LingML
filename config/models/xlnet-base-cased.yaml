@@ -1,0 +1,3 @@
+HF_PATH: 'xlnet-base-cased'
+MAX_LENGTH: 128
+SAVE_NAME: 'XLNet'

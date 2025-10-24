@@ -1,0 +1,10 @@
+args:
+  root: 'datasets/covid-misinformation'
+  train_pct: 75
+  valid_pct: 15
+
+ADD_DENSE: false
+BATCH_SIZE: 64
+N_EPOCHS: 3
+TEST_EVERY: 10000
+SAVE_EVERY: 10000

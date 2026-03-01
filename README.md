@@ -72,7 +72,7 @@ For example,
 python3 -B inference.py \
     --dataset aaai-constraint-covid \
     --model covid-twitter-bert-v2 \
-    --weights "./results/aaai-constraint-covid/CT-BERT/2023-12-19-00-28-08/ckpt5350.pth"
+    --weights "./results/aaai-constraint-covid/CT-BERT/2025-10-19-00-28-08/ckpt5350.pth"
 ```
 
 Note: Make sure to set the device index to <i>None</i> if you do not wish to use the GPU, i.e.
